@@ -1,0 +1,8 @@
+--- Forensic Log Start: 06/20/2026 04:57:54 ---
+[04:57:54] [Execution] Global eval override caused hydration failure
+[04:57:54] [Sandbox] Iframe sandboxing restricted WASM/Component loading
+[04:57:54] [Network] CSP violations: Analytics and DoubleClick endpoints blocked
+[04:57:54] [Runtime] Zone.js macro/microtask churn loop (hydration retries)
+[04:57:54] [Infrastructure] WASM loader failures: BardChatUi dynamic script execution
+[04:57:54] [Configuration] GTM container metadata load failure (No ID/Name in config)
+--- Forensic Log End ---

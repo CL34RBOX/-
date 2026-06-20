@@ -1,0 +1,86 @@
+{"Timestamp":"2026-06-20 12:38:25","Module":"chat-app-state-init","AssetsObserved":"gemini_sparkle_aurora_svg","LogicComputed":"Kne (nav-constraint-signal)","Observability":"High - Reactive signal mapping identified"}
+{
+    "Timestamp":  "2026-06-20 12:39:01",
+    "Component":  "chat-app-module",
+    "FlagsFound":  [
+                       "MarkdownStyling",
+                       "PrintOverrides",
+                       "FastFollows",
+                       "InternalBar"
+                   ],
+    "DOMTargets":  [
+                       "side-nav-menu",
+                       "routerOutlet",
+                       "sideNavMenuButton"
+                   ],
+    "StateSignals":  [
+                         "Ma",
+                         "LZc",
+                         "C0",
+                         "Nf"
+                     ]
+}
+{"Timestamp":"2026-06-20 12:39:34","Component":"chat-app-module","BridgeTarget":"Core-Service-Bridge-_.Ad","Action":"Lazy-Injection-via-sN"}
+{"Timestamp":"2026-06-20 12:40:22","Component":"chat-app-module","AnchorSvc1":"_.WH (UI_Coordinator)","AnchorSvc2":"_.RE (Configuration_Service)","Status":"MAPPED_AS_CORE_DEPENDENCIES"}
+{"Timestamp":"2026-06-20 12:41:04","Pattern":"Direct DOM classList modification","CVSS_Impact":"6.5-Medium","CWE_Mapping":"CWE-79","Action":"MONITOR_FOR_BYPASS"}
+{"Timestamp":"2026-06-20 12:42:13","RegistryID":"k30KJd","ServiceHandle":"_.WO","GlobalContext":"_.G7","AuditStatus":"DEPENDENCY_CHAIN_COMPLETE"}
+{
+    "Timestamp":  "2026-06-20 12:42:55",
+    "Component":  "chat-app-Vmd",
+    "TotalDeps":  21,
+    "CriticalSvc":  [
+                        "_.az",
+                        "_.AP",
+                        "_.S0"
+                    ],
+    "Status":  "COMPLETE_MAPPING"
+}
+{"Timestamp":"2026-06-20 12:44:10","Trigger":"Aa (UserInteractionStream)","CommandStore":"Ca (CommandDispatch)","Router":"Waa (NavigationController)","AuditStatus":"DISPATCH_PATH_MAPPED"}
+{"Timestamp":"2026-06-20 12:45:45","Component":"xap-count-badge","StateGate":"V6d","ThemeHooks":["lm-component-theme","lumi-sys-color"],"AuditStatus":"MAPPED"}
+{
+    "Timestamp":  "2026-06-20 12:46:21",
+    "Component":  "side-navigation-v2 (Iwk)",
+    "TelemetryDensity":  "HIGH",
+    "TrackingEvents":  [
+                           "veAttention",
+                           "veImpression"
+                       ],
+    "UpdateTrigger":  "mystuff-side-nav-update",
+    "AuditStatus":  "FINAL_MAPPING_COMPLETE"
+}
+{
+    "Timestamp":  "2026-06-20 12:46:58",
+    "Component":  "side-navigation-v2 (Iwk)",
+    "Action":  "Observer-Factory-Initialization",
+    "StateCleanup":  "document.body.classList.remove(\u0027enable-lm-loading-animation\u0027)",
+    "API_Endpoints":  [
+                          "toggle",
+                          "close",
+                          "open"
+                      ],
+    "AuditStatus":  "LIFECYCLE_MAPPING_COMPLETE"
+}
+{
+    "Timestamp":  "2026-06-20 12:47:27",
+    "Component":  "side-navigation-v2 (Iwk)",
+    "Mode":  "push",
+    "EvolutionID":  "sidenav_evo",
+    "PersistKey":  "CVUPx",
+    "BadgeState":  "u1b",
+    "AuditStatus":  "INITIALIZATION_MAP_COMPLETE"
+}
+{
+    "Timestamp":  "2026-06-20 12:49:13",
+    "Component":  "bard-sidenav (Cwk)",
+    "AnimationID":  "@widthTransition",
+    "Metrics":  {
+                    "LR26_Open":  "288px",
+                    "LR26_Closed":  "52px",
+                    "Open":  "308px",
+                    "Closed":  "72px"
+                },
+    "AuditStatus":  "ANIMATION_ENGINE_MAPPED"
+}
+{"Timestamp":"2026-06-20 12:53:58","Component":"mat-drawer-container (V9)","Events":"backdropClick (hx)","UI_Context":"Drawer-Overlay-Management","AuditStatus":"MAPPED_AS_CORE_FRAMEWORK"}
+{"Timestamp":"2026-06-20 12:54:17","Component":"V9 (Drawer-Controller)","LayoutCalc":"vvk (Offset-Manager)","StateSync":"Jt (Mutation-Observer-Loop)","AuditStatus":"MAPPED_AS_CORE_LOGIC_ENGINE"}
+{"Timestamp":"2026-06-20 12:54:47","Component":"mat-drawer (uvk)","FocusPolicy":"Switch-Controlled-Focus","StateEngine":"Db (Promise-based-Transition)","CleanupLogic":"Hb (Memory-Cleanup/State-Wipe)","AuditStatus":"CORE_LOGIC_MAPPED"}
